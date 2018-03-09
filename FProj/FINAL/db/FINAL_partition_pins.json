@@ -1,0 +1,189 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "HARD_LOCK_LED",
+					"strict" : false
+				},
+				{
+					"name" : "LOCK_LED",
+					"strict" : false
+				},
+				{
+					"name" : "DOOR_LED",
+					"strict" : false
+				},
+				{
+					"name" : "REPROGRAMING",
+					"strict" : false
+				},
+				{
+					"name" : "0A",
+					"strict" : false
+				},
+				{
+					"name" : "0B",
+					"strict" : false
+				},
+				{
+					"name" : "0C",
+					"strict" : false
+				},
+				{
+					"name" : "0D",
+					"strict" : false
+				},
+				{
+					"name" : "0E",
+					"strict" : false
+				},
+				{
+					"name" : "0F",
+					"strict" : false
+				},
+				{
+					"name" : "0G",
+					"strict" : false
+				},
+				{
+					"name" : "1A",
+					"strict" : false
+				},
+				{
+					"name" : "1B",
+					"strict" : false
+				},
+				{
+					"name" : "1C",
+					"strict" : false
+				},
+				{
+					"name" : "1D",
+					"strict" : false
+				},
+				{
+					"name" : "1E",
+					"strict" : false
+				},
+				{
+					"name" : "1F",
+					"strict" : false
+				},
+				{
+					"name" : "1G",
+					"strict" : false
+				},
+				{
+					"name" : "4A",
+					"strict" : false
+				},
+				{
+					"name" : "4B",
+					"strict" : false
+				},
+				{
+					"name" : "4C",
+					"strict" : false
+				},
+				{
+					"name" : "4D",
+					"strict" : false
+				},
+				{
+					"name" : "4E",
+					"strict" : false
+				},
+				{
+					"name" : "4F",
+					"strict" : false
+				},
+				{
+					"name" : "4G",
+					"strict" : false
+				},
+				{
+					"name" : "3A",
+					"strict" : false
+				},
+				{
+					"name" : "3B",
+					"strict" : false
+				},
+				{
+					"name" : "3C",
+					"strict" : false
+				},
+				{
+					"name" : "3D",
+					"strict" : false
+				},
+				{
+					"name" : "3E",
+					"strict" : false
+				},
+				{
+					"name" : "3F",
+					"strict" : false
+				},
+				{
+					"name" : "3G",
+					"strict" : false
+				},
+				{
+					"name" : "CHECK",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUG-2",
+					"strict" : false
+				},
+				{
+					"name" : "DEBUG-1",
+					"strict" : false
+				},
+				{
+					"name" : "DEGUG-0",
+					"strict" : false
+				},
+				{
+					"name" : "CLR_LED",
+					"strict" : false
+				},
+				{
+					"name" : "INIT_LED",
+					"strict" : false
+				},
+				{
+					"name" : "DOOR",
+					"strict" : false
+				},
+				{
+					"name" : "CLEAR",
+					"strict" : false
+				},
+				{
+					"name" : "BOARD_CLK",
+					"strict" : false
+				},
+				{
+					"name" : "IN_2",
+					"strict" : false
+				},
+				{
+					"name" : "IN_3",
+					"strict" : false
+				},
+				{
+					"name" : "IN_4",
+					"strict" : false
+				},
+				{
+					"name" : "IN_1",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

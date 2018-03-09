@@ -1,0 +1,5 @@
+module mProj (w,x,y,z,b);
+input w,x,y,x;
+output reg b;
+assign b=(w&y&z)|(~y&z&x)|(y&~z&~w&~x);
+endmodule

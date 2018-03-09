@@ -1,0 +1,69 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "G21--S3",
+					"strict" : false
+				},
+				{
+					"name" : "G19--Cout",
+					"strict" : false
+				},
+				{
+					"name" : "F19--OVERFLOW",
+					"strict" : false
+				},
+				{
+					"name" : "G22--S2",
+					"strict" : false
+				},
+				{
+					"name" : "G20--S1",
+					"strict" : false
+				},
+				{
+					"name" : "H21--S0",
+					"strict" : false
+				},
+				{
+					"name" : "AB28--CONTROL",
+					"strict" : false
+				},
+				{
+					"name" : "Y24--X2",
+					"strict" : false
+				},
+				{
+					"name" : "AA22--X1",
+					"strict" : false
+				},
+				{
+					"name" : "AA23-X0",
+					"strict" : false
+				},
+				{
+					"name" : "AC24--Y0",
+					"strict" : false
+				},
+				{
+					"name" : "AB24--Y1",
+					"strict" : false
+				},
+				{
+					"name" : "AB23--Y2",
+					"strict" : false
+				},
+				{
+					"name" : "Y23--X3",
+					"strict" : false
+				},
+				{
+					"name" : "AA24--Y3",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

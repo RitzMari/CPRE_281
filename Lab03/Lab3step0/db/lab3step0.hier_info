@@ -1,0 +1,11 @@
+|lab3step0
+ALARM <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+Cabbage => inst.IN0
+Cabbage => inst5.IN0
+Goat => inst.IN1
+Goat => inst6.IN0
+Goat => inst1.IN0
+Wolf => inst8.IN0
+Wolf => inst1.IN1
+
+

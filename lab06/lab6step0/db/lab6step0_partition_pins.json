@@ -1,0 +1,153 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "AA17",
+					"strict" : false
+				},
+				{
+					"name" : "AB16",
+					"strict" : false
+				},
+				{
+					"name" : "AA16",
+					"strict" : false
+				},
+				{
+					"name" : "AB17",
+					"strict" : false
+				},
+				{
+					"name" : "AB15",
+					"strict" : false
+				},
+				{
+					"name" : "AA15",
+					"strict" : false
+				},
+				{
+					"name" : "AC17",
+					"strict" : false
+				},
+				{
+					"name" : "AD17",
+					"strict" : false
+				},
+				{
+					"name" : "AE17",
+					"strict" : false
+				},
+				{
+					"name" : "AG17",
+					"strict" : false
+				},
+				{
+					"name" : "AH17",
+					"strict" : false
+				},
+				{
+					"name" : "AF17",
+					"strict" : false
+				},
+				{
+					"name" : "AG18",
+					"strict" : false
+				},
+				{
+					"name" : "AA14",
+					"strict" : false
+				},
+				{
+					"name" : "AD18",
+					"strict" : false
+				},
+				{
+					"name" : "AB18",
+					"strict" : false
+				},
+				{
+					"name" : "AH19",
+					"strict" : false
+				},
+				{
+					"name" : "AG19",
+					"strict" : false
+				},
+				{
+					"name" : "AF18",
+					"strict" : false
+				},
+				{
+					"name" : "AH18",
+					"strict" : false
+				},
+				{
+					"name" : "AB19",
+					"strict" : false
+				},
+				{
+					"name" : "AA19",
+					"strict" : false
+				},
+				{
+					"name" : "AG21",
+					"strict" : false
+				},
+				{
+					"name" : "AH21",
+					"strict" : false
+				},
+				{
+					"name" : "AE19",
+					"strict" : false
+				},
+				{
+					"name" : "AF19",
+					"strict" : false
+				},
+				{
+					"name" : "AE18",
+					"strict" : false
+				},
+				{
+					"name" : "AC24",
+					"strict" : false
+				},
+				{
+					"name" : "AB24",
+					"strict" : false
+				},
+				{
+					"name" : "AB23",
+					"strict" : false
+				},
+				{
+					"name" : "AA24",
+					"strict" : false
+				},
+				{
+					"name" : "AA23",
+					"strict" : false
+				},
+				{
+					"name" : "AA22",
+					"strict" : false
+				},
+				{
+					"name" : "Y24",
+					"strict" : false
+				},
+				{
+					"name" : "Y23",
+					"strict" : false
+				},
+				{
+					"name" : "AB28",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

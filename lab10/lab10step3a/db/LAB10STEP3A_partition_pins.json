@@ -1,0 +1,41 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "7A",
+					"strict" : false
+				},
+				{
+					"name" : "7B",
+					"strict" : false
+				},
+				{
+					"name" : "7C",
+					"strict" : false
+				},
+				{
+					"name" : "7D",
+					"strict" : false
+				},
+				{
+					"name" : "7E",
+					"strict" : false
+				},
+				{
+					"name" : "7F",
+					"strict" : false
+				},
+				{
+					"name" : "7G",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

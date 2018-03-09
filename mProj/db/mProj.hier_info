@@ -1,0 +1,29 @@
+|mProj
+prime <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+win => bobs:inst1.w
+win => inst6.IN0
+xin => bobs:inst1.x
+xin => inst.IN1
+xin => inst4.IN0
+yin => bobs:inst1.y
+yin => inst.IN0
+yin => inst2.IN1
+zin => bobs:inst1.z
+zin => inst.IN2
+zin => inst2.IN2
+
+
+|mProj|bobs:inst1
+w => b.IN0
+w => b.IN1
+x => b.IN1
+x => b.IN1
+y => b.IN1
+y => b.IN0
+y => b.IN0
+z => b.IN1
+z => b.IN1
+z => b.IN1
+b <= b.DB_MAX_OUTPUT_PORT_TYPE
+
+

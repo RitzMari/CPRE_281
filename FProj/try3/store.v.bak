@@ -1,0 +1,69 @@
+module store(
+input i1,i2,i3,i4,reprog,clr,clk,
+output g0,g1,g2,g3,g4,g5,g6,g7,k0,k1,k2,k3,k4,k5,k6,k7,count
+);
+reg [7:0] key;
+reg [7:0] guess;
+reg go;
+integer i;
+always @(posedge clk) begin
+	if(((i1 && i2) || (i1 && i3)) || (((i1 && i4) || (i2 && i3)) || ((i2 && i4) || (i3 && i4)))) go=0;
+	else go=1;
+	if(go)begin
+		if(i1 && !reprog) begin
+			guess[i] <= 0;
+			i=i+1;
+			guess[i] <= 0;
+			i=i+1;
+		end
+		if(i2 && !reprog) begin
+			guess[i] <= 0;
+			i=i+1;
+			guess[i] <= 1;
+			i=i+1;
+		end
+		if(i3 && !reprog) begin
+			guess[i] <= 1;
+			i=i+1;
+			guess[i] <= 0;
+			i=i+1;
+		end
+		if(i4 && !reprog) begin
+			guess[i] <= 1;
+			i=i+1;
+			guess[i] <= 1;
+			i=i+1;
+		end
+		//---------------------------------------------------------------------
+		if(i1 && reprog) begin
+			key[i] <= 0;
+			i=i+1;
+			key[i] <= 0;
+			i=i+1;
+			if(i==7) reprog<=0;
+		end
+		if(i2 && reprog) begin
+			key[i] <= 0;
+			i=i+1;
+			key[i] <= 1;
+			i=i+1;
+			if(i==7) reprog<=0;
+		end
+		if(i3 && reprog) begin
+			key[i] <= 1;
+			i=i+1;
+			key[i] <= 0;
+			i=i+1;
+			if(i==7) reprog<=0;
+		end
+		if(i4 && reprog) begin
+			key[i] <= 1;
+			i=i+1;
+			key[i] <= 1;
+			i=i+1;
+			if(i==7) reprog<=0;
+		end
+	end
+	count <=i;
+end
+endmodule

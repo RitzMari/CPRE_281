@@ -1,0 +1,29 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "prime",
+					"strict" : false
+				},
+				{
+					"name" : "zin",
+					"strict" : false
+				},
+				{
+					"name" : "yin",
+					"strict" : false
+				},
+				{
+					"name" : "xin",
+					"strict" : false
+				},
+				{
+					"name" : "win",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

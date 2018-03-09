@@ -1,0 +1,18 @@
+|de_mux
+OUT_0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+DATA => inst.IN0
+DATA => inst1.IN0
+DATA => inst2.IN0
+DATA => inst3.IN0
+SEL_0_L => inst4.IN0
+SEL_0_L => inst1.IN1
+SEL_0_L => inst2.IN1
+SEL_0_L => inst3.IN1
+SEL_1_M => inst5.IN0
+SEL_1_M => inst2.IN2
+SEL_1_M => inst3.IN2
+OUT_1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+OUT_2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+OUT_3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+

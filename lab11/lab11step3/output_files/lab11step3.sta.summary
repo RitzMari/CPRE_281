@@ -1,0 +1,257 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'CLK'
+Slack : -2.305
+TNS   : -6.857
+
+Type  : Slow 1200mV 85C Model Setup 'lab11step2:inst2|clock_divider_1024:inst|inst10'
+Slack : -2.244
+TNS   : -7.003
+
+Type  : Slow 1200mV 85C Model Setup 'lab11step2:inst2|clock_divider_1024:inst1|inst10'
+Slack : -0.966
+TNS   : -0.966
+
+Type  : Slow 1200mV 85C Model Setup 'Manual'
+Slack : -0.504
+TNS   : -0.504
+
+Type  : Slow 1200mV 85C Model Setup 'lab11step2:inst2|inst2'
+Slack : -0.408
+TNS   : -0.408
+
+Type  : Slow 1200mV 85C Model Setup 'lab11step1:inst1|inst'
+Slack : 0.210
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'lab11step1:inst|inst'
+Slack : 0.210
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CLK'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'lab11step2:inst2|clock_divider_1024:inst|inst10'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'lab11step1:inst1|inst'
+Slack : 0.445
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'lab11step1:inst|inst'
+Slack : 0.445
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'lab11step2:inst2|inst2'
+Slack : 0.554
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Manual'
+Slack : 0.556
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'lab11step2:inst2|clock_divider_1024:inst1|inst10'
+Slack : 0.977
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -15.850
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Manual'
+Slack : -3.000
+TNS   : -4.285
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'lab11step2:inst2|clock_divider_1024:inst|inst10'
+Slack : -1.285
+TNS   : -12.850
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'lab11step1:inst1|inst'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'lab11step1:inst|inst'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'lab11step2:inst2|clock_divider_1024:inst1|inst10'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'lab11step2:inst2|inst2'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Setup 'CLK'
+Slack : -2.052
+TNS   : -5.400
+
+Type  : Slow 1200mV 0C Model Setup 'lab11step2:inst2|clock_divider_1024:inst|inst10'
+Slack : -1.973
+TNS   : -5.481
+
+Type  : Slow 1200mV 0C Model Setup 'lab11step2:inst2|clock_divider_1024:inst1|inst10'
+Slack : -0.823
+TNS   : -0.823
+
+Type  : Slow 1200mV 0C Model Setup 'Manual'
+Slack : -0.352
+TNS   : -0.352
+
+Type  : Slow 1200mV 0C Model Setup 'lab11step2:inst2|inst2'
+Slack : -0.330
+TNS   : -0.330
+
+Type  : Slow 1200mV 0C Model Setup 'lab11step1:inst1|inst'
+Slack : 0.297
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'lab11step1:inst|inst'
+Slack : 0.297
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CLK'
+Slack : 0.353
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'lab11step2:inst2|clock_divider_1024:inst|inst10'
+Slack : 0.355
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'lab11step1:inst1|inst'
+Slack : 0.398
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'lab11step1:inst|inst'
+Slack : 0.398
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Manual'
+Slack : 0.444
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'lab11step2:inst2|inst2'
+Slack : 0.492
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'lab11step2:inst2|clock_divider_1024:inst1|inst10'
+Slack : 0.963
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -15.850
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Manual'
+Slack : -3.000
+TNS   : -4.285
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'lab11step2:inst2|clock_divider_1024:inst|inst10'
+Slack : -1.285
+TNS   : -12.850
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'lab11step1:inst1|inst'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'lab11step1:inst|inst'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'lab11step2:inst2|clock_divider_1024:inst1|inst10'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'lab11step2:inst2|inst2'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Fast 1200mV 0C Model Setup 'CLK'
+Slack : -0.608
+TNS   : -0.608
+
+Type  : Fast 1200mV 0C Model Setup 'lab11step2:inst2|clock_divider_1024:inst|inst10'
+Slack : -0.596
+TNS   : -0.596
+
+Type  : Fast 1200mV 0C Model Setup 'lab11step2:inst2|clock_divider_1024:inst1|inst10'
+Slack : -0.585
+TNS   : -0.585
+
+Type  : Fast 1200mV 0C Model Setup 'Manual'
+Slack : -0.013
+TNS   : -0.013
+
+Type  : Fast 1200mV 0C Model Setup 'lab11step2:inst2|inst2'
+Slack : 0.082
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'lab11step1:inst1|inst'
+Slack : 0.624
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'lab11step1:inst|inst'
+Slack : 0.624
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CLK'
+Slack : 0.180
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'lab11step2:inst2|clock_divider_1024:inst|inst10'
+Slack : 0.182
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'lab11step1:inst1|inst'
+Slack : 0.206
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'lab11step1:inst|inst'
+Slack : 0.206
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Manual'
+Slack : 0.268
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'lab11step2:inst2|inst2'
+Slack : 0.268
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'lab11step2:inst2|clock_divider_1024:inst1|inst10'
+Slack : 0.423
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -13.600
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Manual'
+Slack : -3.000
+TNS   : -4.100
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'lab11step2:inst2|clock_divider_1024:inst|inst10'
+Slack : -1.000
+TNS   : -10.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'lab11step1:inst1|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'lab11step1:inst|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'lab11step2:inst2|clock_divider_1024:inst1|inst10'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'lab11step2:inst2|inst2'
+Slack : -1.000
+TNS   : -1.000
+
+------------------------------------------------------------

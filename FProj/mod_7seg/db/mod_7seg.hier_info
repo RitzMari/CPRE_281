@@ -1,0 +1,17 @@
+|mod_7seg
+a <= out.DB_MAX_OUTPUT_PORT_TYPE
+b <= out.DB_MAX_OUTPUT_PORT_TYPE
+c <= out.DB_MAX_OUTPUT_PORT_TYPE
+d <= out.DB_MAX_OUTPUT_PORT_TYPE
+e <= out.DB_MAX_OUTPUT_PORT_TYPE
+f <= out.DB_MAX_OUTPUT_PORT_TYPE
+g <= out.DB_MAX_OUTPUT_PORT_TYPE
+w => Decoder0.IN2
+w => Decoder1.IN0
+x => Decoder0.IN3
+x => Decoder1.IN1
+y => Decoder0.IN1
+z => Decoder0.IN0
+off => Decoder2.IN0
+
+

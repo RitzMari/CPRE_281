@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Dec 07 11:24:35 2017
+Quartus Prime Version : 16.1.0 Build 196 10/24/2016 SJ Standard Edition
+Revision Name : round2
+Top-level Entity Name : round2
+Family : Cyclone IV E
+Total logic elements : 648
+    Total combinational functions : 647
+    Dedicated logic registers : 154
+Total registers : 154
+Total pins : 81
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

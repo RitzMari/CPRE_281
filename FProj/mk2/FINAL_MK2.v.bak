@@ -1,0 +1,83 @@
+module FINAL_MK2
+(
+input i1,i2,i3,i4,clk,clr,re;
+output d0,d1,d2,d3,d4,d5,d6,d7, unlocked, reprog;
+);
+reg [7:0] key;
+reg [7:0] guess;
+intiger count = 0;
+reg go;
+always @(i1 or i2 or i3 or i4 or clr or re or posedge clk) begin
+	if(i1 && i2 or i1 && i3 or i1 && i4 or i2 && i3 or i2 && i4 or i3 && i4) go<=o;
+	else go=1;
+	if(go)begin
+		if(i1 && !reprog) begin
+			guess[i] <= 0;
+			i=i+1;
+			guess[i] <= 0;
+			i<=i+1;
+			if(i==7) check(key,guess,unlocked);
+		end
+		if(i2 && !reprog) begin
+			guess[i] <= 0;
+			i=i+1;
+			guess[i] <= 1;
+			i<=i+1;
+			if(i==7) check(key,guess,unlocked);
+		end
+		if(i3 && !reprog) begin
+			guess[i] <= 1;
+			i=i+1;
+			guess[i] <= 0;
+			i<=i+1;
+			if(i==7) check(key,guess,unlocked);
+		end
+		if(i4 && !reprog) begin
+			guess[i] <= 1;
+			i=i+1;
+			guess[i] <= 1;
+			i<=i+1;
+			if(i==7) check(key,guess,unlocked);
+		end
+		//---------------------------------------------------------------------
+		if(i1 && reprog) begin
+			key[i] <= 0;
+			i=i+1;
+			key[i] <= 0;
+			i<=i+1;
+			if(i==7) reprog<=0;
+		end
+		if(i2 && reprog) begin
+			key[i] <= 0;
+			i=i+1;
+			key[i] <= 1;
+			i<=i+1;
+			if(i==7) reprog<=0;
+		end
+		if(i3 && reprog) begin
+			key[i] <= 1;
+			i=i+1;
+			key[i] <= 0;
+			i<=i+1;
+			if(i==7) reprog<=0;
+		end
+		if(i4 && reprog) begin
+			key[i] <= 1;
+			i=i+1;
+			key[i] <= 1;
+			i<=i+1;
+			if(i==7) reprog<=0;
+		end
+	end
+	
+	
+end
+endmodule
+
+function check(input reg key, input reg guess,output reg unlocked);
+for(i=0;i<8;i=i+1) begin
+	if(key[i] != guess[i]) begin 
+		unlocked <=0;
+		return unlocked;
+
+endfunction

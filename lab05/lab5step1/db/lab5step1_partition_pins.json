@@ -1,0 +1,185 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "1a",
+					"strict" : false
+				},
+				{
+					"name" : "1b",
+					"strict" : false
+				},
+				{
+					"name" : "1c",
+					"strict" : false
+				},
+				{
+					"name" : "1d",
+					"strict" : false
+				},
+				{
+					"name" : "1e",
+					"strict" : false
+				},
+				{
+					"name" : "1f",
+					"strict" : false
+				},
+				{
+					"name" : "1g",
+					"strict" : false
+				},
+				{
+					"name" : "2a",
+					"strict" : false
+				},
+				{
+					"name" : "2b",
+					"strict" : false
+				},
+				{
+					"name" : "2c",
+					"strict" : false
+				},
+				{
+					"name" : "2d",
+					"strict" : false
+				},
+				{
+					"name" : "2e",
+					"strict" : false
+				},
+				{
+					"name" : "2f",
+					"strict" : false
+				},
+				{
+					"name" : "2g",
+					"strict" : false
+				},
+				{
+					"name" : "3a",
+					"strict" : false
+				},
+				{
+					"name" : "3b",
+					"strict" : false
+				},
+				{
+					"name" : "3c",
+					"strict" : false
+				},
+				{
+					"name" : "3d",
+					"strict" : false
+				},
+				{
+					"name" : "3e",
+					"strict" : false
+				},
+				{
+					"name" : "3f",
+					"strict" : false
+				},
+				{
+					"name" : "3g",
+					"strict" : false
+				},
+				{
+					"name" : "4a",
+					"strict" : false
+				},
+				{
+					"name" : "4b",
+					"strict" : false
+				},
+				{
+					"name" : "4c",
+					"strict" : false
+				},
+				{
+					"name" : "4d",
+					"strict" : false
+				},
+				{
+					"name" : "4e",
+					"strict" : false
+				},
+				{
+					"name" : "4f",
+					"strict" : false
+				},
+				{
+					"name" : "4g",
+					"strict" : false
+				},
+				{
+					"name" : "1w",
+					"strict" : false
+				},
+				{
+					"name" : "1x",
+					"strict" : false
+				},
+				{
+					"name" : "1y",
+					"strict" : false
+				},
+				{
+					"name" : "1z",
+					"strict" : false
+				},
+				{
+					"name" : "2w",
+					"strict" : false
+				},
+				{
+					"name" : "2x",
+					"strict" : false
+				},
+				{
+					"name" : "2y",
+					"strict" : false
+				},
+				{
+					"name" : "2z",
+					"strict" : false
+				},
+				{
+					"name" : "3w",
+					"strict" : false
+				},
+				{
+					"name" : "3x",
+					"strict" : false
+				},
+				{
+					"name" : "3y",
+					"strict" : false
+				},
+				{
+					"name" : "3z",
+					"strict" : false
+				},
+				{
+					"name" : "4w",
+					"strict" : false
+				},
+				{
+					"name" : "4x",
+					"strict" : false
+				},
+				{
+					"name" : "4y",
+					"strict" : false
+				},
+				{
+					"name" : "4z",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

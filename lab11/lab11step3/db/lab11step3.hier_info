@@ -1,0 +1,113 @@
+|lab11step3
+A <= lab11step1:inst.A
+Manual => lab11step1:inst.CLK
+Manual => lab11step2:inst2.Manual
+W => lab11step1:inst.w
+W => lab11step1:inst1.w
+W => LED2.DATAIN
+B <= lab11step1:inst.B
+C <= lab11step1:inst.C
+D <= lab11step1:inst.D
+E <= lab11step1:inst.E
+F <= lab11step1:inst.F
+G <= lab11step1:inst.G
+1 <= lab11step1:inst1.A
+CLK => lab11step2:inst2.CLK
+2 <= lab11step1:inst1.B
+3 <= lab11step1:inst1.C
+4 <= lab11step1:inst1.D
+5 <= lab11step1:inst1.E
+6 <= lab11step1:inst1.F
+7 <= lab11step1:inst1.G
+led <= lab11step2:inst2.Smooth
+LED2 <= W.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab11step3|lab11step1:inst
+A <= seven_seg_decoder:inst7.a
+CLK => inst.CLK
+w => inst2.IN1
+w => inst3.IN1
+B <= seven_seg_decoder:inst7.b
+C <= seven_seg_decoder:inst7.c
+D <= seven_seg_decoder:inst7.d
+E <= seven_seg_decoder:inst7.e
+F <= seven_seg_decoder:inst7.f
+G <= seven_seg_decoder:inst7.g
+
+
+|lab11step3|lab11step1:inst|seven_seg_decoder:inst7
+a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+b <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+c <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+e <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+f <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+g <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+w => Decoder0.IN2
+x => Decoder0.IN3
+y => Decoder0.IN1
+z => Decoder0.IN0
+
+
+|lab11step3|lab11step1:inst1
+A <= seven_seg_decoder:inst7.a
+CLK => inst.CLK
+w => inst2.IN1
+w => inst3.IN1
+B <= seven_seg_decoder:inst7.b
+C <= seven_seg_decoder:inst7.c
+D <= seven_seg_decoder:inst7.d
+E <= seven_seg_decoder:inst7.e
+F <= seven_seg_decoder:inst7.f
+G <= seven_seg_decoder:inst7.g
+
+
+|lab11step3|lab11step1:inst1|seven_seg_decoder:inst7
+a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+b <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+c <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+e <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+f <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+g <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+w => Decoder0.IN2
+x => Decoder0.IN3
+y => Decoder0.IN1
+z => Decoder0.IN0
+
+
+|lab11step3|lab11step2:inst2
+Smooth <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+CLK => clock_divider_1024:inst.CLK_IN
+Manual => inst2.DATAIN
+
+
+|lab11step3|lab11step2:inst2|clock_divider_1024:inst1
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst4.CLK
+CLK_IN => inst5.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+
+|lab11step3|lab11step2:inst2|clock_divider_1024:inst
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst4.CLK
+CLK_IN => inst5.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+

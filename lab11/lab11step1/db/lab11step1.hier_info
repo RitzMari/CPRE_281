@@ -1,0 +1,27 @@
+|lab11step1
+A <= seven_seg_decoder:inst7.a
+CLK => inst.CLK
+w => inst2.IN1
+w => inst3.IN1
+B <= seven_seg_decoder:inst7.b
+C <= seven_seg_decoder:inst7.c
+D <= seven_seg_decoder:inst7.d
+E <= seven_seg_decoder:inst7.e
+F <= seven_seg_decoder:inst7.f
+G <= seven_seg_decoder:inst7.g
+
+
+|lab11step1|seven_seg_decoder:inst7
+a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+b <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+c <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+e <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+f <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+g <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+w => Decoder0.IN2
+x => Decoder0.IN3
+y => Decoder0.IN1
+z => Decoder0.IN0
+
+

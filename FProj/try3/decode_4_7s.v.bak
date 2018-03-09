@@ -1,0 +1,14 @@
+module decode_4_7s(guess, o0,o1,o2,o3,o4,o5,o6,o7);
+input [7:0] guess;
+output reg o0,o1,o2,o3,o4,o5,o6,o7;
+always @(guess) begin
+	guess[0]=o0;
+	guess[1]=o1;
+	guess[2]=o2;
+	guess[3]=o3;
+	guess[4]=o4;
+	guess[5]=o5;
+	guess[6]=o6;
+	guess[7]=o7;
+end
+endcase

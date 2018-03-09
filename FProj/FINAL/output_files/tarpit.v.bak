@@ -1,0 +1,8 @@
+module tarpit(input D,clk, output stuff);
+	reg en;
+always @(posedge clk) begin
+	if(stuff) stuff <=0;
+	if(d) en<=1;
+	if(~d and en) stuff<=1;
+	if(~d) en <= 0;	
+	

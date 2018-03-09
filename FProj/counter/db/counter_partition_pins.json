@@ -1,0 +1,37 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "OUT_1",
+					"strict" : false
+				},
+				{
+					"name" : "OUT_0",
+					"strict" : false
+				},
+				{
+					"name" : "OUT_2",
+					"strict" : false
+				},
+				{
+					"name" : "PRN",
+					"strict" : false
+				},
+				{
+					"name" : "CLRN",
+					"strict" : false
+				},
+				{
+					"name" : "ENABLE",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

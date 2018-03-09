@@ -1,0 +1,7 @@
+module compare(guess,key,check,match);
+input reg [7:0] guess, key;
+output reg match;
+always @(check) begin
+	if((key[7:0]==guess[7:0])&&check) match =1;
+end
+endmodule;

@@ -1,0 +1,573 @@
+|round2
+LOCK_LED <= inst64.DB_MAX_OUTPUT_PORT_TYPE
+IN_1 => inst.IN0
+CLK => debounce:inst22.CLK
+CLK => debounce:inst23.CLK
+CLK => debounce:inst25.CLK
+CLK => store:inst56.clk
+CLK => debounce:inst24.CLK
+IN_2 => inst1.IN0
+IN_4 => inst3.IN0
+EDIT_MODE => inst27.IN1
+CLR => inst58.IN0
+HARD_RESET => inst58.IN1
+HARD_RESET => store:inst56.reset
+HARD_RESET => inst57.IN1
+IN_3 => inst2.IN0
+0-2 <= mod_7seg:inst17.c
+0-3 <= mod_7seg:inst17.d
+0-4 <= mod_7seg:inst17.e
+0-5 <= mod_7seg:inst17.f
+0-6 <= mod_7seg:inst17.g
+0-0 <= mod_7seg:inst17.a
+0-1 <= mod_7seg:inst17.b
+1-0 <= mod_7seg:inst18.a
+1-1 <= mod_7seg:inst18.b
+1-2 <= mod_7seg:inst18.c
+1-3 <= mod_7seg:inst18.d
+1-4 <= mod_7seg:inst18.e
+2-0 <= mod_7seg:inst19.a
+2-1 <= mod_7seg:inst19.b
+2-2 <= mod_7seg:inst19.c
+2-3 <= mod_7seg:inst19.d
+2-4 <= mod_7seg:inst19.e
+2-5 <= mod_7seg:inst19.f
+2-6 <= mod_7seg:inst19.g
+1-5 <= mod_7seg:inst18.f
+1-6 <= mod_7seg:inst18.g
+3-0 <= mod_7seg:inst20.a
+3-1 <= mod_7seg:inst20.b
+3-2 <= mod_7seg:inst20.c
+3-3 <= mod_7seg:inst20.d
+3-4 <= mod_7seg:inst20.e
+3-5 <= mod_7seg:inst20.f
+3-6 <= mod_7seg:inst20.g
+out0 <= counter:inst14.OUT_0
+out1 <= counter:inst14.OUT_1
+out2 <= counter:inst14.OUT_2
+P1 <= debounce:inst22.OUT
+P2 <= debounce:inst23.OUT
+P3 <= debounce:inst24.OUT
+P4 <= debounce:inst25.OUT
+CLR_LED <= inst58.DB_MAX_OUTPUT_PORT_TYPE
+HARD_LOCK_LED <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+PRESSED <= store:inst56.pressed
+CLK_OUT <= XOR4:inst8.OUT
+Check_check <= counter:inst14.OUT_2
+MATCH <= compare:inst5.match
+WOUT <= GUESS[0].DB_MAX_OUTPUT_PORT_TYPE
+XOUT <= GUESS[1].DB_MAX_OUTPUT_PORT_TYPE
+EDIT <= inst27.DB_MAX_OUTPUT_PORT_TYPE
+D1-0 <= mod_7seg:inst26.a
+D1-1 <= mod_7seg:inst26.b
+D1-2 <= mod_7seg:inst26.c
+D1-3 <= mod_7seg:inst26.d
+D1-4 <= mod_7seg:inst26.e
+D1-5 <= mod_7seg:inst26.f
+D1-6 <= mod_7seg:inst26.g
+D2-0 <= mod_7seg:inst28.a
+D2-1 <= mod_7seg:inst28.b
+D2-2 <= mod_7seg:inst28.c
+D2-3 <= mod_7seg:inst28.d
+D2-4 <= mod_7seg:inst28.e
+D2-5 <= mod_7seg:inst28.f
+D2-6 <= mod_7seg:inst28.g
+D3-0 <= mod_7seg:inst29.a
+D3-1 <= mod_7seg:inst29.b
+D3-2 <= mod_7seg:inst29.c
+D3-3 <= mod_7seg:inst29.d
+D3-4 <= mod_7seg:inst29.e
+D3-5 <= mod_7seg:inst29.f
+D3-6 <= mod_7seg:inst29.g
+D4-0 <= mod_7seg:inst30.a
+D4-1 <= mod_7seg:inst30.b
+D4-2 <= mod_7seg:inst30.c
+D4-3 <= mod_7seg:inst30.d
+D4-4 <= mod_7seg:inst30.e
+D4-5 <= mod_7seg:inst30.f
+D4-6 <= mod_7seg:inst30.g
+
+
+|round2|XOR4:inst8
+OUT <= 3.DB_MAX_OUTPUT_PORT_TYPE
+IN1 => 13.IN0
+IN2 => 13.IN1
+IN3 => 16.IN0
+IN4 => 16.IN1
+
+
+|round2|debounce:inst24
+OUT <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+CLK => clock_divider_1024:inst.CLK_IN
+D => inst2.DATAIN
+
+
+|round2|debounce:inst24|clock_divider_1024:inst4
+CLK_OUT <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst4.CLK
+CLK_IN => inst5.CLK
+
+
+|round2|debounce:inst24|clock_divider_1024:inst1
+CLK_OUT <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst4.CLK
+CLK_IN => inst5.CLK
+
+
+|round2|debounce:inst24|clock_divider_1024:inst
+CLK_OUT <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst4.CLK
+CLK_IN => inst5.CLK
+
+
+|round2|counter:inst6
+OUT_1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+PRN => inst1.PRESET
+PRN => inst.PRESET
+PRN => inst2.PRESET
+CLRN => inst1.ACLR
+CLRN => inst.ACLR
+CLRN => inst2.ACLR
+ENABLE => inst1.IN0
+ENABLE => inst.IN0
+ENABLE => inst2.IN0
+CLK => inst.CLK
+OUT_0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+OUT_2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|round2|counter:inst14
+OUT_1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+PRN => inst1.PRESET
+PRN => inst.PRESET
+PRN => inst2.PRESET
+CLRN => inst1.ACLR
+CLRN => inst.ACLR
+CLRN => inst2.ACLR
+ENABLE => inst1.IN0
+ENABLE => inst.IN0
+ENABLE => inst2.IN0
+CLK => inst.CLK
+OUT_0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+OUT_2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|round2|store:inst56
+i1 => always0.IN0
+i1 => always0.IN0
+i1 => always0.IN0
+i1 => always0.IN0
+i1 => always0.IN1
+i1 => always0.IN1
+i1 => always0.IN0
+i2 => always0.IN1
+i2 => always0.IN0
+i2 => always0.IN0
+i2 => always0.IN1
+i2 => always0.IN1
+i2 => always0.IN1
+i2 => always0.IN1
+i3 => always0.IN1
+i3 => always0.IN1
+i3 => always0.IN0
+i3 => always0.IN1
+i3 => always0.IN1
+i3 => always0.IN1
+i3 => always0.IN1
+i4 => always0.IN1
+i4 => always0.IN1
+i4 => always0.IN1
+i4 => always0.IN1
+i4 => always0.IN1
+i4 => always0.IN1
+i4 => always0.IN1
+edit => reprog.DATAIN
+clr => always0.IN1
+clk => pressed~reg0.CLK
+clk => check~reg0.CLK
+clk => R[0].CLK
+clk => R[1].CLK
+clk => R[2].CLK
+clk => R[3].CLK
+clk => R[4].CLK
+clk => R[5].CLK
+clk => R[6].CLK
+clk => R[7].CLK
+clk => R[8].CLK
+clk => R[9].CLK
+clk => R[10].CLK
+clk => R[11].CLK
+clk => R[12].CLK
+clk => R[13].CLK
+clk => R[14].CLK
+clk => R[15].CLK
+clk => R[16].CLK
+clk => R[17].CLK
+clk => R[18].CLK
+clk => R[19].CLK
+clk => R[20].CLK
+clk => R[21].CLK
+clk => R[22].CLK
+clk => R[23].CLK
+clk => R[24].CLK
+clk => R[25].CLK
+clk => R[26].CLK
+clk => R[27].CLK
+clk => R[28].CLK
+clk => R[29].CLK
+clk => R[30].CLK
+clk => R[31].CLK
+clk => key[0]~reg0.CLK
+clk => key[1]~reg0.CLK
+clk => key[2]~reg0.CLK
+clk => key[3]~reg0.CLK
+clk => key[4]~reg0.CLK
+clk => key[5]~reg0.CLK
+clk => key[6]~reg0.CLK
+clk => key[7]~reg0.CLK
+clk => enable.CLK
+clk => i[0].CLK
+clk => i[1].CLK
+clk => i[2].CLK
+clk => i[3].CLK
+clk => i[4].CLK
+clk => i[5].CLK
+clk => i[6].CLK
+clk => i[7].CLK
+clk => i[8].CLK
+clk => i[9].CLK
+clk => i[10].CLK
+clk => i[11].CLK
+clk => i[12].CLK
+clk => i[13].CLK
+clk => i[14].CLK
+clk => i[15].CLK
+clk => i[16].CLK
+clk => i[17].CLK
+clk => i[18].CLK
+clk => i[19].CLK
+clk => i[20].CLK
+clk => i[21].CLK
+clk => i[22].CLK
+clk => i[23].CLK
+clk => i[24].CLK
+clk => i[25].CLK
+clk => i[26].CLK
+clk => i[27].CLK
+clk => i[28].CLK
+clk => i[29].CLK
+clk => i[30].CLK
+clk => i[31].CLK
+clk => guess[0]~reg0.CLK
+clk => guess[1]~reg0.CLK
+clk => guess[2]~reg0.CLK
+clk => guess[3]~reg0.CLK
+clk => guess[4]~reg0.CLK
+clk => guess[5]~reg0.CLK
+clk => guess[6]~reg0.CLK
+clk => guess[7]~reg0.CLK
+clk => hit.CLK
+clk => reprog.CLK
+check <= check~reg0.DB_MAX_OUTPUT_PORT_TYPE
+key[0] <= key[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+key[1] <= key[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+key[2] <= key[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+key[3] <= key[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+key[4] <= key[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+key[5] <= key[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+key[6] <= key[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+key[7] <= key[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+guess[0] <= guess[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+guess[1] <= guess[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+guess[2] <= guess[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+guess[3] <= guess[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+guess[4] <= guess[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+guess[5] <= guess[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+guess[6] <= guess[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+guess[7] <= guess[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pressed <= pressed~reg0.DB_MAX_OUTPUT_PORT_TYPE
+test <= <GND>
+reset => always0.IN1
+
+
+|round2|debounce:inst22
+OUT <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+CLK => clock_divider_1024:inst.CLK_IN
+D => inst2.DATAIN
+
+
+|round2|debounce:inst22|clock_divider_1024:inst4
+CLK_OUT <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst4.CLK
+CLK_IN => inst5.CLK
+
+
+|round2|debounce:inst22|clock_divider_1024:inst1
+CLK_OUT <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst4.CLK
+CLK_IN => inst5.CLK
+
+
+|round2|debounce:inst22|clock_divider_1024:inst
+CLK_OUT <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst4.CLK
+CLK_IN => inst5.CLK
+
+
+|round2|debounce:inst23
+OUT <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+CLK => clock_divider_1024:inst.CLK_IN
+D => inst2.DATAIN
+
+
+|round2|debounce:inst23|clock_divider_1024:inst4
+CLK_OUT <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst4.CLK
+CLK_IN => inst5.CLK
+
+
+|round2|debounce:inst23|clock_divider_1024:inst1
+CLK_OUT <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst4.CLK
+CLK_IN => inst5.CLK
+
+
+|round2|debounce:inst23|clock_divider_1024:inst
+CLK_OUT <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst4.CLK
+CLK_IN => inst5.CLK
+
+
+|round2|debounce:inst25
+OUT <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+CLK => clock_divider_1024:inst.CLK_IN
+D => inst2.DATAIN
+
+
+|round2|debounce:inst25|clock_divider_1024:inst4
+CLK_OUT <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst4.CLK
+CLK_IN => inst5.CLK
+
+
+|round2|debounce:inst25|clock_divider_1024:inst1
+CLK_OUT <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst4.CLK
+CLK_IN => inst5.CLK
+
+
+|round2|debounce:inst25|clock_divider_1024:inst
+CLK_OUT <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst4.CLK
+CLK_IN => inst5.CLK
+
+
+|round2|compare:inst5
+guess[0] => Equal0.IN7
+guess[1] => Equal0.IN6
+guess[2] => Equal0.IN5
+guess[3] => Equal0.IN4
+guess[4] => Equal0.IN3
+guess[5] => Equal0.IN2
+guess[6] => Equal0.IN1
+guess[7] => Equal0.IN0
+key[0] => Equal0.IN15
+key[1] => Equal0.IN14
+key[2] => Equal0.IN13
+key[3] => Equal0.IN12
+key[4] => Equal0.IN11
+key[5] => Equal0.IN10
+key[6] => Equal0.IN9
+key[7] => Equal0.IN8
+check => always0.IN1
+match <= always0.DB_MAX_OUTPUT_PORT_TYPE
+clk => ~NO_FANOUT~
+
+
+|round2|mod_7seg:inst17
+a <= out.DB_MAX_OUTPUT_PORT_TYPE
+b <= out.DB_MAX_OUTPUT_PORT_TYPE
+c <= out.DB_MAX_OUTPUT_PORT_TYPE
+d <= out.DB_MAX_OUTPUT_PORT_TYPE
+e <= out.DB_MAX_OUTPUT_PORT_TYPE
+f <= out.DB_MAX_OUTPUT_PORT_TYPE
+g <= out.DB_MAX_OUTPUT_PORT_TYPE
+w => Decoder0.IN2
+x => Decoder0.IN3
+y => Decoder0.IN1
+y => Decoder1.IN1
+z => Decoder0.IN0
+z => Decoder1.IN0
+off => Decoder2.IN0
+
+
+|round2|hide:inst21
+c0 => o2.IN0
+c0 => o1.IN0
+c1 => o3.IN1
+c1 => o4.IN1
+c1 => o1.IN1
+c1 => o2.IN1
+c2 => o1.IN1
+c2 => o2.IN1
+o1 <= o1.DB_MAX_OUTPUT_PORT_TYPE
+o2 <= o2.DB_MAX_OUTPUT_PORT_TYPE
+o3 <= o3.DB_MAX_OUTPUT_PORT_TYPE
+o4 <= o4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|round2|mod_7seg:inst18
+a <= out.DB_MAX_OUTPUT_PORT_TYPE
+b <= out.DB_MAX_OUTPUT_PORT_TYPE
+c <= out.DB_MAX_OUTPUT_PORT_TYPE
+d <= out.DB_MAX_OUTPUT_PORT_TYPE
+e <= out.DB_MAX_OUTPUT_PORT_TYPE
+f <= out.DB_MAX_OUTPUT_PORT_TYPE
+g <= out.DB_MAX_OUTPUT_PORT_TYPE
+w => Decoder0.IN2
+x => Decoder0.IN3
+y => Decoder0.IN1
+y => Decoder1.IN1
+z => Decoder0.IN0
+z => Decoder1.IN0
+off => Decoder2.IN0
+
+
+|round2|mod_7seg:inst19
+a <= out.DB_MAX_OUTPUT_PORT_TYPE
+b <= out.DB_MAX_OUTPUT_PORT_TYPE
+c <= out.DB_MAX_OUTPUT_PORT_TYPE
+d <= out.DB_MAX_OUTPUT_PORT_TYPE
+e <= out.DB_MAX_OUTPUT_PORT_TYPE
+f <= out.DB_MAX_OUTPUT_PORT_TYPE
+g <= out.DB_MAX_OUTPUT_PORT_TYPE
+w => Decoder0.IN2
+x => Decoder0.IN3
+y => Decoder0.IN1
+y => Decoder1.IN1
+z => Decoder0.IN0
+z => Decoder1.IN0
+off => Decoder2.IN0
+
+
+|round2|mod_7seg:inst20
+a <= out.DB_MAX_OUTPUT_PORT_TYPE
+b <= out.DB_MAX_OUTPUT_PORT_TYPE
+c <= out.DB_MAX_OUTPUT_PORT_TYPE
+d <= out.DB_MAX_OUTPUT_PORT_TYPE
+e <= out.DB_MAX_OUTPUT_PORT_TYPE
+f <= out.DB_MAX_OUTPUT_PORT_TYPE
+g <= out.DB_MAX_OUTPUT_PORT_TYPE
+w => Decoder0.IN2
+x => Decoder0.IN3
+y => Decoder0.IN1
+y => Decoder1.IN1
+z => Decoder0.IN0
+z => Decoder1.IN0
+off => Decoder2.IN0
+
+
+|round2|mod_7seg:inst26
+a <= out.DB_MAX_OUTPUT_PORT_TYPE
+b <= out.DB_MAX_OUTPUT_PORT_TYPE
+c <= out.DB_MAX_OUTPUT_PORT_TYPE
+d <= out.DB_MAX_OUTPUT_PORT_TYPE
+e <= out.DB_MAX_OUTPUT_PORT_TYPE
+f <= out.DB_MAX_OUTPUT_PORT_TYPE
+g <= out.DB_MAX_OUTPUT_PORT_TYPE
+w => Decoder0.IN2
+x => Decoder0.IN3
+y => Decoder0.IN1
+y => Decoder1.IN1
+z => Decoder0.IN0
+z => Decoder1.IN0
+off => Decoder2.IN0
+
+
+|round2|mod_7seg:inst28
+a <= out.DB_MAX_OUTPUT_PORT_TYPE
+b <= out.DB_MAX_OUTPUT_PORT_TYPE
+c <= out.DB_MAX_OUTPUT_PORT_TYPE
+d <= out.DB_MAX_OUTPUT_PORT_TYPE
+e <= out.DB_MAX_OUTPUT_PORT_TYPE
+f <= out.DB_MAX_OUTPUT_PORT_TYPE
+g <= out.DB_MAX_OUTPUT_PORT_TYPE
+w => Decoder0.IN2
+x => Decoder0.IN3
+y => Decoder0.IN1
+y => Decoder1.IN1
+z => Decoder0.IN0
+z => Decoder1.IN0
+off => Decoder2.IN0
+
+
+|round2|mod_7seg:inst29
+a <= out.DB_MAX_OUTPUT_PORT_TYPE
+b <= out.DB_MAX_OUTPUT_PORT_TYPE
+c <= out.DB_MAX_OUTPUT_PORT_TYPE
+d <= out.DB_MAX_OUTPUT_PORT_TYPE
+e <= out.DB_MAX_OUTPUT_PORT_TYPE
+f <= out.DB_MAX_OUTPUT_PORT_TYPE
+g <= out.DB_MAX_OUTPUT_PORT_TYPE
+w => Decoder0.IN2
+x => Decoder0.IN3
+y => Decoder0.IN1
+y => Decoder1.IN1
+z => Decoder0.IN0
+z => Decoder1.IN0
+off => Decoder2.IN0
+
+
+|round2|mod_7seg:inst30
+a <= out.DB_MAX_OUTPUT_PORT_TYPE
+b <= out.DB_MAX_OUTPUT_PORT_TYPE
+c <= out.DB_MAX_OUTPUT_PORT_TYPE
+d <= out.DB_MAX_OUTPUT_PORT_TYPE
+e <= out.DB_MAX_OUTPUT_PORT_TYPE
+f <= out.DB_MAX_OUTPUT_PORT_TYPE
+g <= out.DB_MAX_OUTPUT_PORT_TYPE
+w => Decoder0.IN2
+x => Decoder0.IN3
+y => Decoder0.IN1
+y => Decoder1.IN1
+z => Decoder0.IN0
+z => Decoder1.IN0
+off => Decoder2.IN0
+
+

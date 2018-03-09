@@ -1,0 +1,1013 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'EDC:inst55|counter:555555555555555555555|inst'
+Slack : -5.846
+TNS   : -65.602
+
+Type  : Slow 1200mV 85C Model Setup 'H_Lock:inst18|counter:inst|inst'
+Slack : -5.775
+TNS   : -65.700
+
+Type  : Slow 1200mV 85C Model Setup 'EDC:inst43|clock_divider_1024:inst20|inst1'
+Slack : -5.226
+TNS   : -5.226
+
+Type  : Slow 1200mV 85C Model Setup 'EDC:inst55|clock_divider_1024:inst20|inst1'
+Slack : -5.217
+TNS   : -5.217
+
+Type  : Slow 1200mV 85C Model Setup 'H_Lock:inst18|counter:inst|inst1'
+Slack : -5.216
+TNS   : -58.001
+
+Type  : Slow 1200mV 85C Model Setup 'EDC:inst43|counter:555555555555555555555|inst'
+Slack : -4.686
+TNS   : -48.066
+
+Type  : Slow 1200mV 85C Model Setup 'debounce:inst54|clock_divider_1024:inst1|inst1'
+Slack : -2.961
+TNS   : -6.624
+
+Type  : Slow 1200mV 85C Model Setup 'debounce:inst57|clock_divider_1024:inst1|inst1'
+Slack : -2.908
+TNS   : -6.288
+
+Type  : Slow 1200mV 85C Model Setup 'clock_divider_1024:inst|inst1'
+Slack : -2.816
+TNS   : -29.058
+
+Type  : Slow 1200mV 85C Model Setup 'BOARD_CLK'
+Slack : -2.756
+TNS   : -10.413
+
+Type  : Slow 1200mV 85C Model Setup 'debounce:inst53|clock_divider_1024:inst|inst1'
+Slack : -2.556
+TNS   : -5.633
+
+Type  : Slow 1200mV 85C Model Setup 'debounce:inst56|clock_divider_1024:inst|inst1'
+Slack : -2.529
+TNS   : -5.305
+
+Type  : Slow 1200mV 85C Model Setup 'debounce:inst57|clock_divider_1024:inst|inst1'
+Slack : -2.503
+TNS   : -6.314
+
+Type  : Slow 1200mV 85C Model Setup 'debounce:inst56|clock_divider_1024:inst1|inst1'
+Slack : -2.496
+TNS   : -5.697
+
+Type  : Slow 1200mV 85C Model Setup 'debounce:inst54|clock_divider_1024:inst|inst1'
+Slack : -2.357
+TNS   : -5.464
+
+Type  : Slow 1200mV 85C Model Setup 'clock_generator:inst31|clock_divider_1024:inst|inst1'
+Slack : -2.339
+TNS   : -5.677
+
+Type  : Slow 1200mV 85C Model Setup 'debounce:inst53|clock_divider_1024:inst1|inst1'
+Slack : -2.318
+TNS   : -5.120
+
+Type  : Slow 1200mV 85C Model Setup 'clock_generator:inst31|clock_divider_1024:inst8|inst1'
+Slack : -2.018
+TNS   : -3.879
+
+Type  : Slow 1200mV 85C Model Setup 'clock_generator:inst31|inst7'
+Slack : -1.866
+TNS   : -5.038
+
+Type  : Slow 1200mV 85C Model Setup 'EDC:inst55|inst19'
+Slack : -0.441
+TNS   : -0.441
+
+Type  : Slow 1200mV 85C Model Setup 'EDC:inst43|inst19'
+Slack : -0.424
+TNS   : -0.424
+
+Type  : Slow 1200mV 85C Model Setup 'EDC:inst43|counter:555555555555555555555|inst1'
+Slack : 0.210
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'EDC:inst43|counter:555555555555555555555|inst'
+Slack : -0.523
+TNS   : -5.387
+
+Type  : Slow 1200mV 85C Model Hold 'debounce:inst56|clock_divider_1024:inst|inst1'
+Slack : -0.351
+TNS   : -1.022
+
+Type  : Slow 1200mV 85C Model Hold 'clock_divider_1024:inst|inst1'
+Slack : -0.158
+TNS   : -0.274
+
+Type  : Slow 1200mV 85C Model Hold 'debounce:inst54|clock_divider_1024:inst1|inst1'
+Slack : -0.147
+TNS   : -0.147
+
+Type  : Slow 1200mV 85C Model Hold 'EDC:inst43|clock_divider_1024:inst20|inst1'
+Slack : -0.137
+TNS   : -0.137
+
+Type  : Slow 1200mV 85C Model Hold 'debounce:inst56|clock_divider_1024:inst1|inst1'
+Slack : -0.093
+TNS   : -0.093
+
+Type  : Slow 1200mV 85C Model Hold 'H_Lock:inst18|counter:inst|inst1'
+Slack : -0.012
+TNS   : -0.024
+
+Type  : Slow 1200mV 85C Model Hold 'debounce:inst53|clock_divider_1024:inst1|inst1'
+Slack : 0.015
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'debounce:inst57|clock_divider_1024:inst1|inst1'
+Slack : 0.019
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'EDC:inst55|clock_divider_1024:inst20|inst1'
+Slack : 0.103
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clock_generator:inst31|clock_divider_1024:inst|inst1'
+Slack : 0.105
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'H_Lock:inst18|counter:inst|inst'
+Slack : 0.125
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'EDC:inst55|counter:555555555555555555555|inst'
+Slack : 0.170
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'debounce:inst54|clock_divider_1024:inst|inst1'
+Slack : 0.187
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'debounce:inst53|clock_divider_1024:inst|inst1'
+Slack : 0.288
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clock_generator:inst31|clock_divider_1024:inst8|inst1'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'debounce:inst57|clock_divider_1024:inst|inst1'
+Slack : 0.425
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'BOARD_CLK'
+Slack : 0.440
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clock_generator:inst31|inst7'
+Slack : 0.440
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'EDC:inst43|counter:555555555555555555555|inst1'
+Slack : 0.445
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'EDC:inst43|inst19'
+Slack : 0.493
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'EDC:inst55|inst19'
+Slack : 0.593
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'clock_divider_1024:inst|inst1'
+Slack : -6.024
+TNS   : -6.024
+
+Type  : Slow 1200mV 85C Model Recovery 'H_Lock:inst18|counter:inst|inst1'
+Slack : -5.155
+TNS   : -7.043
+
+Type  : Slow 1200mV 85C Model Recovery 'H_Lock:inst18|counter:inst|inst'
+Slack : -5.073
+TNS   : -9.505
+
+Type  : Slow 1200mV 85C Model Recovery 'EDC:inst43|counter:555555555555555555555|inst'
+Slack : -2.583
+TNS   : -2.583
+
+Type  : Slow 1200mV 85C Model Recovery 'EDC:inst43|inst19'
+Slack : -1.509
+TNS   : -1.509
+
+Type  : Slow 1200mV 85C Model Recovery 'EDC:inst43|counter:555555555555555555555|inst1'
+Slack : -1.386
+TNS   : -1.386
+
+Type  : Slow 1200mV 85C Model Recovery 'EDC:inst55|counter:555555555555555555555|inst'
+Slack : -0.625
+TNS   : -5.000
+
+Type  : Slow 1200mV 85C Model Removal 'EDC:inst43|counter:555555555555555555555|inst'
+Slack : -0.290
+TNS   : -2.320
+
+Type  : Slow 1200mV 85C Model Removal 'H_Lock:inst18|counter:inst|inst1'
+Slack : 0.221
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'H_Lock:inst18|counter:inst|inst'
+Slack : 0.273
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'EDC:inst55|counter:555555555555555555555|inst'
+Slack : 0.318
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'clock_divider_1024:inst|inst1'
+Slack : 1.111
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'EDC:inst43|inst19'
+Slack : 1.319
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'EDC:inst43|counter:555555555555555555555|inst1'
+Slack : 1.559
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'BOARD_CLK'
+Slack : -3.000
+TNS   : -11.995
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock_divider_1024:inst|inst1'
+Slack : -1.285
+TNS   : -33.410
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'EDC:inst43|counter:555555555555555555555|inst'
+Slack : -1.285
+TNS   : -24.415
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'EDC:inst55|counter:555555555555555555555|inst'
+Slack : -1.285
+TNS   : -24.415
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'H_Lock:inst18|counter:inst|inst'
+Slack : -1.285
+TNS   : -24.415
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'H_Lock:inst18|counter:inst|inst1'
+Slack : -1.285
+TNS   : -24.415
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock_generator:inst31|clock_divider_1024:inst8|inst1'
+Slack : -1.285
+TNS   : -8.995
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock_generator:inst31|clock_divider_1024:inst|inst1'
+Slack : -1.285
+TNS   : -6.425
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock_generator:inst31|inst7'
+Slack : -1.285
+TNS   : -6.425
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'debounce:inst53|clock_divider_1024:inst1|inst1'
+Slack : -1.285
+TNS   : -6.425
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'debounce:inst53|clock_divider_1024:inst|inst1'
+Slack : -1.285
+TNS   : -6.425
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'debounce:inst54|clock_divider_1024:inst1|inst1'
+Slack : -1.285
+TNS   : -6.425
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'debounce:inst54|clock_divider_1024:inst|inst1'
+Slack : -1.285
+TNS   : -6.425
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'debounce:inst56|clock_divider_1024:inst1|inst1'
+Slack : -1.285
+TNS   : -6.425
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'debounce:inst56|clock_divider_1024:inst|inst1'
+Slack : -1.285
+TNS   : -6.425
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'debounce:inst57|clock_divider_1024:inst1|inst1'
+Slack : -1.285
+TNS   : -6.425
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'debounce:inst57|clock_divider_1024:inst|inst1'
+Slack : -1.285
+TNS   : -6.425
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'EDC:inst43|clock_divider_1024:inst20|inst1'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'EDC:inst43|counter:555555555555555555555|inst1'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'EDC:inst43|inst19'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'EDC:inst55|clock_divider_1024:inst20|inst1'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'EDC:inst55|inst19'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'debounce:inst53|clock_divider_1024:inst4|inst1'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'debounce:inst54|clock_divider_1024:inst4|inst1'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'debounce:inst56|clock_divider_1024:inst4|inst1'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'debounce:inst57|clock_divider_1024:inst4|inst1'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Setup 'EDC:inst55|counter:555555555555555555555|inst'
+Slack : -5.264
+TNS   : -59.147
+
+Type  : Slow 1200mV 0C Model Setup 'H_Lock:inst18|counter:inst|inst'
+Slack : -5.222
+TNS   : -59.420
+
+Type  : Slow 1200mV 0C Model Setup 'H_Lock:inst18|counter:inst|inst1'
+Slack : -4.688
+TNS   : -52.042
+
+Type  : Slow 1200mV 0C Model Setup 'EDC:inst55|clock_divider_1024:inst20|inst1'
+Slack : -4.647
+TNS   : -4.647
+
+Type  : Slow 1200mV 0C Model Setup 'EDC:inst43|clock_divider_1024:inst20|inst1'
+Slack : -4.624
+TNS   : -4.624
+
+Type  : Slow 1200mV 0C Model Setup 'EDC:inst43|counter:555555555555555555555|inst'
+Slack : -4.279
+TNS   : -43.932
+
+Type  : Slow 1200mV 0C Model Setup 'debounce:inst57|clock_divider_1024:inst1|inst1'
+Slack : -2.617
+TNS   : -5.358
+
+Type  : Slow 1200mV 0C Model Setup 'debounce:inst54|clock_divider_1024:inst1|inst1'
+Slack : -2.540
+TNS   : -5.613
+
+Type  : Slow 1200mV 0C Model Setup 'clock_divider_1024:inst|inst1'
+Slack : -2.489
+TNS   : -25.070
+
+Type  : Slow 1200mV 0C Model Setup 'BOARD_CLK'
+Slack : -2.384
+TNS   : -9.155
+
+Type  : Slow 1200mV 0C Model Setup 'debounce:inst56|clock_divider_1024:inst|inst1'
+Slack : -2.268
+TNS   : -4.558
+
+Type  : Slow 1200mV 0C Model Setup 'debounce:inst56|clock_divider_1024:inst1|inst1'
+Slack : -2.258
+TNS   : -4.910
+
+Type  : Slow 1200mV 0C Model Setup 'debounce:inst57|clock_divider_1024:inst|inst1'
+Slack : -2.244
+TNS   : -5.405
+
+Type  : Slow 1200mV 0C Model Setup 'debounce:inst53|clock_divider_1024:inst|inst1'
+Slack : -2.221
+TNS   : -4.722
+
+Type  : Slow 1200mV 0C Model Setup 'debounce:inst54|clock_divider_1024:inst|inst1'
+Slack : -2.088
+TNS   : -4.641
+
+Type  : Slow 1200mV 0C Model Setup 'clock_generator:inst31|clock_divider_1024:inst|inst1'
+Slack : -2.075
+TNS   : -4.832
+
+Type  : Slow 1200mV 0C Model Setup 'debounce:inst53|clock_divider_1024:inst1|inst1'
+Slack : -2.061
+TNS   : -4.370
+
+Type  : Slow 1200mV 0C Model Setup 'clock_generator:inst31|clock_divider_1024:inst8|inst1'
+Slack : -1.772
+TNS   : -2.990
+
+Type  : Slow 1200mV 0C Model Setup 'clock_generator:inst31|inst7'
+Slack : -1.589
+TNS   : -4.133
+
+Type  : Slow 1200mV 0C Model Setup 'EDC:inst55|inst19'
+Slack : -0.355
+TNS   : -0.355
+
+Type  : Slow 1200mV 0C Model Setup 'EDC:inst43|inst19'
+Slack : -0.319
+TNS   : -0.319
+
+Type  : Slow 1200mV 0C Model Setup 'EDC:inst43|counter:555555555555555555555|inst1'
+Slack : 0.297
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'EDC:inst43|counter:555555555555555555555|inst'
+Slack : -0.489
+TNS   : -5.226
+
+Type  : Slow 1200mV 0C Model Hold 'debounce:inst56|clock_divider_1024:inst|inst1'
+Slack : -0.342
+TNS   : -0.990
+
+Type  : Slow 1200mV 0C Model Hold 'debounce:inst54|clock_divider_1024:inst1|inst1'
+Slack : -0.168
+TNS   : -0.168
+
+Type  : Slow 1200mV 0C Model Hold 'EDC:inst43|clock_divider_1024:inst20|inst1'
+Slack : -0.155
+TNS   : -0.155
+
+Type  : Slow 1200mV 0C Model Hold 'clock_divider_1024:inst|inst1'
+Slack : -0.110
+TNS   : -0.321
+
+Type  : Slow 1200mV 0C Model Hold 'debounce:inst56|clock_divider_1024:inst1|inst1'
+Slack : -0.103
+TNS   : -0.103
+
+Type  : Slow 1200mV 0C Model Hold 'H_Lock:inst18|counter:inst|inst1'
+Slack : -0.036
+TNS   : -0.072
+
+Type  : Slow 1200mV 0C Model Hold 'debounce:inst57|clock_divider_1024:inst1|inst1'
+Slack : -0.016
+TNS   : -0.016
+
+Type  : Slow 1200mV 0C Model Hold 'debounce:inst53|clock_divider_1024:inst1|inst1'
+Slack : 0.005
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'EDC:inst55|clock_divider_1024:inst20|inst1'
+Slack : 0.076
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clock_generator:inst31|clock_divider_1024:inst|inst1'
+Slack : 0.089
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'H_Lock:inst18|counter:inst|inst'
+Slack : 0.115
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'debounce:inst54|clock_divider_1024:inst|inst1'
+Slack : 0.136
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'EDC:inst55|counter:555555555555555555555|inst'
+Slack : 0.139
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'debounce:inst53|clock_divider_1024:inst|inst1'
+Slack : 0.248
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clock_generator:inst31|clock_divider_1024:inst8|inst1'
+Slack : 0.353
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'debounce:inst57|clock_divider_1024:inst|inst1'
+Slack : 0.359
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'BOARD_CLK'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clock_generator:inst31|inst7'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'EDC:inst43|counter:555555555555555555555|inst1'
+Slack : 0.398
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'EDC:inst43|inst19'
+Slack : 0.422
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'EDC:inst55|inst19'
+Slack : 0.542
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'clock_divider_1024:inst|inst1'
+Slack : -5.551
+TNS   : -5.551
+
+Type  : Slow 1200mV 0C Model Recovery 'H_Lock:inst18|counter:inst|inst1'
+Slack : -4.560
+TNS   : -6.384
+
+Type  : Slow 1200mV 0C Model Recovery 'H_Lock:inst18|counter:inst|inst'
+Slack : -4.491
+TNS   : -8.251
+
+Type  : Slow 1200mV 0C Model Recovery 'EDC:inst43|counter:555555555555555555555|inst'
+Slack : -2.376
+TNS   : -2.376
+
+Type  : Slow 1200mV 0C Model Recovery 'EDC:inst43|counter:555555555555555555555|inst1'
+Slack : -1.271
+TNS   : -1.271
+
+Type  : Slow 1200mV 0C Model Recovery 'EDC:inst43|inst19'
+Slack : -1.261
+TNS   : -1.261
+
+Type  : Slow 1200mV 0C Model Recovery 'EDC:inst55|counter:555555555555555555555|inst'
+Slack : -0.512
+TNS   : -4.096
+
+Type  : Slow 1200mV 0C Model Removal 'EDC:inst43|counter:555555555555555555555|inst'
+Slack : -0.313
+TNS   : -2.504
+
+Type  : Slow 1200mV 0C Model Removal 'H_Lock:inst18|counter:inst|inst1'
+Slack : 0.140
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'H_Lock:inst18|counter:inst|inst'
+Slack : 0.289
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'EDC:inst55|counter:555555555555555555555|inst'
+Slack : 0.313
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'clock_divider_1024:inst|inst1'
+Slack : 0.941
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'EDC:inst43|inst19'
+Slack : 1.205
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'EDC:inst43|counter:555555555555555555555|inst1'
+Slack : 1.388
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'BOARD_CLK'
+Slack : -3.000
+TNS   : -11.995
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock_divider_1024:inst|inst1'
+Slack : -1.285
+TNS   : -33.410
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'EDC:inst43|counter:555555555555555555555|inst'
+Slack : -1.285
+TNS   : -24.415
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'EDC:inst55|counter:555555555555555555555|inst'
+Slack : -1.285
+TNS   : -24.415
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'H_Lock:inst18|counter:inst|inst'
+Slack : -1.285
+TNS   : -24.415
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'H_Lock:inst18|counter:inst|inst1'
+Slack : -1.285
+TNS   : -24.415
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock_generator:inst31|clock_divider_1024:inst8|inst1'
+Slack : -1.285
+TNS   : -8.995
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock_generator:inst31|clock_divider_1024:inst|inst1'
+Slack : -1.285
+TNS   : -6.425
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock_generator:inst31|inst7'
+Slack : -1.285
+TNS   : -6.425
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'debounce:inst53|clock_divider_1024:inst1|inst1'
+Slack : -1.285
+TNS   : -6.425
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'debounce:inst53|clock_divider_1024:inst|inst1'
+Slack : -1.285
+TNS   : -6.425
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'debounce:inst54|clock_divider_1024:inst1|inst1'
+Slack : -1.285
+TNS   : -6.425
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'debounce:inst54|clock_divider_1024:inst|inst1'
+Slack : -1.285
+TNS   : -6.425
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'debounce:inst56|clock_divider_1024:inst1|inst1'
+Slack : -1.285
+TNS   : -6.425
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'debounce:inst56|clock_divider_1024:inst|inst1'
+Slack : -1.285
+TNS   : -6.425
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'debounce:inst57|clock_divider_1024:inst1|inst1'
+Slack : -1.285
+TNS   : -6.425
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'debounce:inst57|clock_divider_1024:inst|inst1'
+Slack : -1.285
+TNS   : -6.425
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'EDC:inst43|clock_divider_1024:inst20|inst1'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'EDC:inst43|counter:555555555555555555555|inst1'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'EDC:inst43|inst19'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'EDC:inst55|clock_divider_1024:inst20|inst1'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'EDC:inst55|inst19'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'debounce:inst53|clock_divider_1024:inst4|inst1'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'debounce:inst54|clock_divider_1024:inst4|inst1'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'debounce:inst56|clock_divider_1024:inst4|inst1'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'debounce:inst57|clock_divider_1024:inst4|inst1'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Fast 1200mV 0C Model Setup 'EDC:inst55|counter:555555555555555555555|inst'
+Slack : -2.788
+TNS   : -29.625
+
+Type  : Fast 1200mV 0C Model Setup 'H_Lock:inst18|counter:inst|inst'
+Slack : -2.726
+TNS   : -29.224
+
+Type  : Fast 1200mV 0C Model Setup 'EDC:inst43|clock_divider_1024:inst20|inst1'
+Slack : -2.398
+TNS   : -2.398
+
+Type  : Fast 1200mV 0C Model Setup 'H_Lock:inst18|counter:inst|inst1'
+Slack : -2.383
+TNS   : -25.223
+
+Type  : Fast 1200mV 0C Model Setup 'EDC:inst55|clock_divider_1024:inst20|inst1'
+Slack : -2.358
+TNS   : -2.358
+
+Type  : Fast 1200mV 0C Model Setup 'EDC:inst43|counter:555555555555555555555|inst'
+Slack : -2.150
+TNS   : -21.388
+
+Type  : Fast 1200mV 0C Model Setup 'debounce:inst54|clock_divider_1024:inst1|inst1'
+Slack : -1.082
+TNS   : -1.330
+
+Type  : Fast 1200mV 0C Model Setup 'debounce:inst57|clock_divider_1024:inst1|inst1'
+Slack : -1.050
+TNS   : -1.152
+
+Type  : Fast 1200mV 0C Model Setup 'clock_divider_1024:inst|inst1'
+Slack : -1.014
+TNS   : -5.514
+
+Type  : Fast 1200mV 0C Model Setup 'BOARD_CLK'
+Slack : -0.990
+TNS   : -2.247
+
+Type  : Fast 1200mV 0C Model Setup 'debounce:inst53|clock_divider_1024:inst|inst1'
+Slack : -0.866
+TNS   : -1.091
+
+Type  : Fast 1200mV 0C Model Setup 'debounce:inst56|clock_divider_1024:inst|inst1'
+Slack : -0.847
+TNS   : -0.847
+
+Type  : Fast 1200mV 0C Model Setup 'debounce:inst57|clock_divider_1024:inst|inst1'
+Slack : -0.842
+TNS   : -1.170
+
+Type  : Fast 1200mV 0C Model Setup 'debounce:inst56|clock_divider_1024:inst1|inst1'
+Slack : -0.835
+TNS   : -0.949
+
+Type  : Fast 1200mV 0C Model Setup 'debounce:inst54|clock_divider_1024:inst|inst1'
+Slack : -0.764
+TNS   : -0.864
+
+Type  : Fast 1200mV 0C Model Setup 'clock_generator:inst31|clock_divider_1024:inst|inst1'
+Slack : -0.742
+TNS   : -0.809
+
+Type  : Fast 1200mV 0C Model Setup 'debounce:inst53|clock_divider_1024:inst1|inst1'
+Slack : -0.741
+TNS   : -0.741
+
+Type  : Fast 1200mV 0C Model Setup 'clock_generator:inst31|clock_divider_1024:inst8|inst1'
+Slack : -0.465
+TNS   : -0.465
+
+Type  : Fast 1200mV 0C Model Setup 'clock_generator:inst31|inst7'
+Slack : -0.455
+TNS   : -0.747
+
+Type  : Fast 1200mV 0C Model Setup 'EDC:inst43|inst19'
+Slack : 0.046
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'EDC:inst55|inst19'
+Slack : 0.064
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'EDC:inst43|counter:555555555555555555555|inst1'
+Slack : 0.624
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'EDC:inst43|counter:555555555555555555555|inst'
+Slack : -0.244
+TNS   : -2.644
+
+Type  : Fast 1200mV 0C Model Hold 'debounce:inst56|clock_divider_1024:inst|inst1'
+Slack : -0.133
+TNS   : -0.458
+
+Type  : Fast 1200mV 0C Model Hold 'EDC:inst43|clock_divider_1024:inst20|inst1'
+Slack : -0.073
+TNS   : -0.073
+
+Type  : Fast 1200mV 0C Model Hold 'clock_divider_1024:inst|inst1'
+Slack : -0.065
+TNS   : -0.121
+
+Type  : Fast 1200mV 0C Model Hold 'debounce:inst54|clock_divider_1024:inst1|inst1'
+Slack : -0.045
+TNS   : -0.055
+
+Type  : Fast 1200mV 0C Model Hold 'debounce:inst56|clock_divider_1024:inst1|inst1'
+Slack : -0.009
+TNS   : -0.009
+
+Type  : Fast 1200mV 0C Model Hold 'H_Lock:inst18|counter:inst|inst1'
+Slack : 0.014
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'debounce:inst53|clock_divider_1024:inst1|inst1'
+Slack : 0.026
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'H_Lock:inst18|counter:inst|inst'
+Slack : 0.038
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'debounce:inst57|clock_divider_1024:inst1|inst1'
+Slack : 0.042
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'EDC:inst55|clock_divider_1024:inst20|inst1'
+Slack : 0.047
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clock_generator:inst31|clock_divider_1024:inst|inst1'
+Slack : 0.047
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'EDC:inst55|counter:555555555555555555555|inst'
+Slack : 0.119
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'debounce:inst54|clock_divider_1024:inst|inst1'
+Slack : 0.123
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clock_generator:inst31|clock_divider_1024:inst8|inst1'
+Slack : 0.137
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'debounce:inst53|clock_divider_1024:inst|inst1'
+Slack : 0.157
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'debounce:inst57|clock_divider_1024:inst|inst1'
+Slack : 0.195
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'BOARD_CLK'
+Slack : 0.201
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clock_generator:inst31|inst7'
+Slack : 0.201
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'EDC:inst43|counter:555555555555555555555|inst1'
+Slack : 0.206
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'EDC:inst43|inst19'
+Slack : 0.249
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'EDC:inst55|inst19'
+Slack : 0.271
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'clock_divider_1024:inst|inst1'
+Slack : -2.917
+TNS   : -2.917
+
+Type  : Fast 1200mV 0C Model Recovery 'H_Lock:inst18|counter:inst|inst1'
+Slack : -2.216
+TNS   : -2.216
+
+Type  : Fast 1200mV 0C Model Recovery 'H_Lock:inst18|counter:inst|inst'
+Slack : -2.174
+TNS   : -3.350
+
+Type  : Fast 1200mV 0C Model Recovery 'EDC:inst43|counter:555555555555555555555|inst'
+Slack : -0.925
+TNS   : -0.925
+
+Type  : Fast 1200mV 0C Model Recovery 'EDC:inst43|inst19'
+Slack : -0.552
+TNS   : -0.552
+
+Type  : Fast 1200mV 0C Model Recovery 'EDC:inst43|counter:555555555555555555555|inst1'
+Slack : -0.358
+TNS   : -0.358
+
+Type  : Fast 1200mV 0C Model Recovery 'EDC:inst55|counter:555555555555555555555|inst'
+Slack : -0.209
+TNS   : -1.672
+
+Type  : Fast 1200mV 0C Model Removal 'EDC:inst43|counter:555555555555555555555|inst'
+Slack : -0.069
+TNS   : -0.552
+
+Type  : Fast 1200mV 0C Model Removal 'H_Lock:inst18|counter:inst|inst'
+Slack : 0.094
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'EDC:inst55|counter:555555555555555555555|inst'
+Slack : 0.140
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'H_Lock:inst18|counter:inst|inst1'
+Slack : 0.189
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'clock_divider_1024:inst|inst1'
+Slack : 0.429
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'EDC:inst43|inst19'
+Slack : 0.638
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'EDC:inst43|counter:555555555555555555555|inst1'
+Slack : 0.830
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'BOARD_CLK'
+Slack : -3.000
+TNS   : -10.404
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock_divider_1024:inst|inst1'
+Slack : -1.000
+TNS   : -26.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'EDC:inst43|counter:555555555555555555555|inst'
+Slack : -1.000
+TNS   : -19.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'EDC:inst55|counter:555555555555555555555|inst'
+Slack : -1.000
+TNS   : -19.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'H_Lock:inst18|counter:inst|inst'
+Slack : -1.000
+TNS   : -19.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'H_Lock:inst18|counter:inst|inst1'
+Slack : -1.000
+TNS   : -19.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock_generator:inst31|clock_divider_1024:inst8|inst1'
+Slack : -1.000
+TNS   : -7.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock_generator:inst31|clock_divider_1024:inst|inst1'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock_generator:inst31|inst7'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'debounce:inst53|clock_divider_1024:inst1|inst1'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'debounce:inst53|clock_divider_1024:inst|inst1'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'debounce:inst54|clock_divider_1024:inst1|inst1'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'debounce:inst54|clock_divider_1024:inst|inst1'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'debounce:inst56|clock_divider_1024:inst1|inst1'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'debounce:inst56|clock_divider_1024:inst|inst1'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'debounce:inst57|clock_divider_1024:inst1|inst1'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'debounce:inst57|clock_divider_1024:inst|inst1'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'EDC:inst43|clock_divider_1024:inst20|inst1'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'EDC:inst43|counter:555555555555555555555|inst1'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'EDC:inst43|inst19'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'EDC:inst55|clock_divider_1024:inst20|inst1'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'EDC:inst55|inst19'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'debounce:inst53|clock_divider_1024:inst4|inst1'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'debounce:inst54|clock_divider_1024:inst4|inst1'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'debounce:inst56|clock_divider_1024:inst4|inst1'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'debounce:inst57|clock_divider_1024:inst4|inst1'
+Slack : -1.000
+TNS   : -1.000
+
+------------------------------------------------------------
